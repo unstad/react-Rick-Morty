@@ -1,0 +1,32 @@
+.CharacterList {
+  min-height: 100vh;
+  min-width: 100vw;
+  overflow-x: hidden;
+  background-color: whitesmoke;
+  color: rgb(18, 161, 195);
+}
+
+h1 {
+  text-align: center;
+  font-size: 100px;
+  text-shadow: 0 0 3px #f8e4e4, 0 0 5px #57f309;
+}
+
+.CharacterWrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.searchbarContainer {
+  display: flex;
+  justify-content: center;
+}
+.searchbar {
+  border-radius: 8px;
+  padding: 8px;
+  display: block;
+  border: 1px solid #ccc;
+  width: 50%;
+}
